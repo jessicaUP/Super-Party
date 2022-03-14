@@ -30,8 +30,8 @@ const App = () => {
   
   return (
     <>
-      <Logo />
       <CharacterIndex type='index'/>
+      {/* <Logo /> */}
       {/* <Router>
         <Routes>
           <Route path='/' element={<CharacterIndex type='index' />} />
