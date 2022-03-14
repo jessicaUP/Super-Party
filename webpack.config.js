@@ -17,7 +17,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/presest-env', '@babel/react']
+            presets: ['@babel/env', '@babel/react']
           }
         },
       }
@@ -25,7 +25,7 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    extensions: [".js", ".jsx", '.css',  "*"]
+    extensions: [".js", ".jsx", '.css', "*"]
   },
   plugins: [
     new HtmlWebpackPlugin({
