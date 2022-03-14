@@ -31,12 +31,13 @@ const App = () => {
   return (
     <>
       <Logo />
-      <Router>
+      <CharacterIndex type='index'/>
+      {/* <Router>
         <Routes>
           <Route path='/' element={<CharacterIndex type='index' />} />
           <Route>404 not found</Route>
         </Routes>
-      </Router>
+      </Router> */}
 
     </>
   );
