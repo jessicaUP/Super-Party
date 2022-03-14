@@ -1,6 +1,9 @@
 # Super Party
 
-Project Link: [SuperParty](https://jessicaup.github.io/Super-Party/)
+### LOCALLY
+
+
+Live link to be added -> Project Link: [SuperParty](https://jessicaup.github.io/Super-Party/)
 
 ## SUMMARY
 Super Party is a Super Mario Party Character Directory. Create by Jessica Uphoff for educational purposes. Wanting to take a spin an a employee directory, I decided to tailor it from an employee to a character directory.
