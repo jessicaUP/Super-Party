@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/super-party/static/css/main.e6e41370.css",
+    "main.js": "/super-party/static/js/main.a9eff2bb.js",
+    "static/media/nintendo-logo.jpg": "/super-party/static/media/nintendo-logo.3a6dc1ef06829247bf50.jpg",
+    "index.html": "/super-party/index.html",
+    "main.e6e41370.css.map": "/super-party/static/css/main.e6e41370.css.map",
+    "main.a9eff2bb.js.map": "/super-party/static/js/main.a9eff2bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6e41370.css",
+    "static/js/main.a9eff2bb.js"
+  ]
+}
