@@ -19,13 +19,18 @@ module.exports = {
           options: {
             presets: ['@babel/env', '@babel/react']
           }
-        },
-      }
+        }
+      },
+      {
+        test: /\.css$/,
+        exclude: /(node_modules)/,
+        use: "css-loader"
+       }
     ]
   },
   devtool: 'source-map',
   resolve: {
-    extensions: [".js", ".jsx", '.css', "*"]
+    extensions: [".js", ".jsx", "*"]
   },
   plugins: [
     new HtmlWebpackPlugin({

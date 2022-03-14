@@ -1,5 +1,5 @@
+import '../src/style.css';
 import React, { useEffect } from 'react';
-import './index.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import CharacterIndex from './frontend/components/character_index';
