@@ -1,0 +1,432 @@
+#root {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  position: absolute;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5bfdc74875f9ee194f3e0add/1611690945506-KHUJX5A89XTAURP82HJ4/Nintendo.png');
+  background-image: url('../images/nintendo-logo.jpg');
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: 3;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+h4 {
+  margin: 5px;
+}
+
+.frame {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.closed-frame {
+  z-index: 0;
+}
+
+#switch {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  /* width: 18vw; */
+  background-color: rgb(228, 0, 15);
+  transition: 1s;
+  z-index: 3;
+}
+
+.closed {
+  width: 15vw;
+  background-color: rgb(225, 1, 16);
+  transition: 1s;
+}
+
+
+.open {
+  width: 100vw;
+}
+
+.closed-explore {
+  display: none;
+}
+
+.open-explore {
+  display: block;
+}
+
+.open #switch {
+  left: 0;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+}
+
+
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  color: white;
+  background-color: unset;
+}
+
+.background {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../images/redSplash.png"); */
+  /* background-image: linear-gradient(white, white, rgb(228, 0, 15)); */
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom; */
+
+}
+
+/* .main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+
+
+} */
+
+.char-show {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 20vw;
+  left: 15vw;
+
+}
+
+.jobs {
+  list-style-type: none;
+}
+
+.information {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.index-cont.character-tile {
+  width: 15vw;
+  height: 15vw;
+  margin: 5px;
+}
+
+.main-pic {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 60vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  /* border: 8px inset black; */
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  filter: grayscale();
+  position: absolute;
+
+}
+
+
+
+.index-section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 18vw;
+  flex-direction: column;
+  overflow: scroll;
+  z-index: 0;
+}
+
+.index-section::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-section {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  right: 0;
+  right: 10vw;
+  width: 70vw;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+.index {
+  width: 15vw;
+  height: 15vw;
+  position: relative;
+  margin: 5px;
+}
+
+/* .profile-pic:hover{
+  background-color: black;
+  filter: unset;
+} */
+
+.icon-true {
+  border: 10px solid rgb(228, 0, 15);
+  filter: unset;
+  z-index: 2;
+}
+
+#Mario.explore {
+  width: 19vw;
+  height: 19vw;
+  bottom: 19vw;
+  right: 57vw;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#Luigi.explore {
+  width: 12vw;
+  height: 12vw;
+  bottom: 7.5vw;
+  right: 53vw;
+}
+
+#Peach.explore {
+  width: 12vw;
+  height: 12vw;
+  bottom: 34vw;
+  right: 48.5vw;
+}
+
+#Yoshi.explore {
+  width: 19vw;
+  height: 19vw;
+  bottom: 16vw;
+  right: 37vw;
+      -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#Rosalina.explore {
+  width: 12vw;
+  height: 12vw;
+  bottom: 25.5vw;
+  right: -2vw;
+}
+
+#Bowser.explore {
+  width: 24vw;
+  height: 24vw;
+  background-position: left;
+  bottom: 0;
+  right: 16vw;
+}
+
+#BowserJr.explore {
+  width: 8vw;
+  height: 8vw;
+  bottom: 1vw;
+  right: 8vw;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#Wario.explore {
+  width: 12vw;
+  height: 12vw;
+  background-position: right;
+  bottom: 23vw;
+  right: 11.5vw;
+}
+
+#DonkeyKong.explore {
+  width: 15vw;
+  height: 15vw;
+  bottom: 36vw;
+  right: 17vw;
+}
+
+#DiddyKong.explore {
+  width: 8vw;
+  height: 8vw;
+  bottom: 35vw;
+  right: 8.5vw;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#Toad.explore {
+  width: 15vw;
+  height: 15vw;
+  bottom: 35vw;
+  right: 33vw;
+}
+
+#Daisy.explore {
+  width: 12vw;
+  height: 12vw;
+  bottom: 3vw;
+  right: 41vw;
+}
+
+#Waluigi.explore {
+  width: 12vw;
+  height: 12vw;
+  background-position: right;
+  bottom: 25vw;
+  right: 25vw;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#Boo.explore {
+  width: 15vw;
+  height: 15vw;
+  bottom: 10vw;
+  right: 0.5vw;
+}
+
+#Boo.profile-pic {
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.icon-explored {
+  filter: unset;
+}
+
+.profile-pic:hover {
+  /* border: 10px solid rgb(228, 0, 15); */
+  z-index: 3;
+  filter: unset;
+}
+
+.profile-pic.explore:hover {
+  border: 10px solid rgb(228, 0, 15);
+  filter: unset;
+}
+
+#Mario.main-pic {
+  background-position-x: -9vw;
+}
+
+
+#Luigi.main-pic {
+  background-position-x: -11vw;
+}
+
+
+#Peach.main-pic {
+  background-position-x: -11vw;
+}
+
+#Yoshi.main-pic {
+  background-position-x: -7vw;
+}
+
+#Rosalina.main-pic {
+  background-position-x: -6vw;
+}
+
+#Bowser.main-pic {
+  background-position-x: -10vw;
+}
+
+#BowserJr.main-pic {
+  background-position-x: 11vw;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#Wario.main-pic {
+  background-position-x: -5vw;
+}
+
+#DonkeyKong.main-pic {
+  background-position-x: 11vw;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#DiddyKong.main-pic {
+  background-position-x: 15vw;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#Toad.main-pic {
+  background-position-x: -8vw;
+}
+
+#Daisy.main-pic {
+  background-position-x: -11vw;
+}
+
+#Waluigi.main-pic {
+  background-position-x: 13vw;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#Boo.main-pic {
+  background-position-x: 10vw;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
