@@ -31,7 +31,7 @@ const App = () => {
   return (
     <>
       <CharacterIndex type='index'/>
-      {/* <Logo /> */}
+      <Logo />
       {/* <Router>
         <Routes>
           <Route path='/' element={<CharacterIndex type='index' />} />

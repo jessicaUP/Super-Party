@@ -49,7 +49,7 @@ h4 {
   bottom: 0;
   background-color: rgb(228, 0, 15);
   transition: 1s;
-  z-index: 3;
+
 }
 
 .closed {
@@ -162,7 +162,7 @@ h1 {
   width: 18vw;
   flex-direction: column;
   overflow: scroll;
-  z-index: 0;
+  z-index: 1;
 }
 
 .index-section::-webkit-scrollbar {
